@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+/*div geral*/
+.App {
+  width: 600px;
+  height: 600px;
+  background-color: #1b6ada;
+  border-radius: 3px;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/*input de texto*/
+input[type="text"] { 
+  flex: 1;
+  padding: 10px;
+  font-size: 18px;
+  margin-left: 90px ;
+  margin-top: 10px;
+}
+
+/*botao de adicionar tarefa*/
+#botaoAdd{
+  padding: 10px;
+  font-size: 18px;
+  background-color: #46e930;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.trf-list {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 50px;
+}
+
+/*bloco depois que a tarefa é adicionada*/
+.bloco-nota {
+  display: flex;
+  color: #000000;
+  background-color: #26c7d3;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 90px;
+  width: 385px;
+}
+
+.tarefa-recebe {
+  flex: 1;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+#editar-bnt, #apagar-bnt button {
+  margin-left: 10px;
+}
+
+#editar-bnt {
+  color: rgb(4, 105, 4);
+  margin-right: 10px;
+}
+
+#apagar-bnt {
+  color: red;
+}
+
+
